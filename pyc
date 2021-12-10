@@ -1,0 +1,8 @@
+#!/usr/bin/python
+
+py_file = raw_input("file.py: ")
+from py_compile import compile
+compile(py_file)
+print "sukses: {}c".format(py_file)
+exit()
+
