@@ -6,12 +6,6 @@
 
 import os
 try:
-import requests
-except ImportError:
-jeeck_love_almira ( " \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Module requests belum terinstal")
-os.system('pip2 install requests')
-
-try:
 import concurrent.futures
 except ImportError:
 jeeck_love_almira ( " \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Module futures belum terinstall")
