@@ -46,9 +46,7 @@ cp = []
 id = []
 user = []
 loop = 0
-#
-def jeeck_love_almira(z):
-for e in z + '\n':
+
 sys.stdout.write(e)
 sys.stdout.flush()
 time.sleep(0.03)
