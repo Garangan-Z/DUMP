@@ -9,12 +9,6 @@ from bs4 import BeautifulSoup
 ct = datetime.now()
 n = ct.month
 bulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']
-try:
-if n < 0 or n > 12:
-exit()
-nTemp = n - 1
-except ValueError:
-exit()
 
 current = datetime.now()
 ta = current.year
