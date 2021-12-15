@@ -2,26 +2,6 @@
 
 # coding=utf-8
 
-# OMPEN SOURSE CODE YA BROO CUMA BOOT FOLLOW + BOT COMEN YANG ANE ENC
-
-import os
-try:
-import concurrent.futures
-except ImportError:
-jeeck_love_almira ( " \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Module futures belum terinstall")
-os.system('pip2 install futures')
-
-try:
-import bs4
-except ImportError:
-jeeck_love_almira ( " \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Module bs4 belum terinstal")
-os.system('pip2 install bs4')
-try:
-import ipaddress
-except ImportError:
-jeeck_love_almira ( " \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Module ipaddress belum terinstal")
-os.system('pip2 install ipaddress')
-
 import requests, os, re, bs4, sys, json, time, random, datetime, ipaddress
 from concurrent.futures import ThreadPoolExecutor as JeckoloveAlmira
 from datetime import datetime
