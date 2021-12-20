@@ -502,7 +502,7 @@ class crack:
 				try:
 					while True:
 						try:
-							self.apk=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama File :\x1b[1;92m ")
+							self.apk=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name File :\x1b[1;92m ")
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
@@ -523,7 +523,7 @@ class crack:
 				try:
 					while True:
 						try:
-							self.apk=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama File :\x1b[1;92m ")
+							self.apk=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name File :\x1b[1;92m ")
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
@@ -601,11 +601,11 @@ class crack2:
 				try:
 					while True:
 						try:
-							self.apk=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama File :\x1b[1;92m ")
+							self.apk=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name File :\x1b[1;92m ")
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
-							exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
+							exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 							continue
 					self.fl=[]
 					for i in self.fs:
@@ -613,7 +613,7 @@ class crack2:
 							self.fl.append({"id":i.split("<=>")[0]})
 						except:continue
 				except Exception as e:
-					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Valid")
+					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 					continue
 				print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Contoh Password :\x1b[1;92m Sayang,Bangsat,123456")
 				self.pwlist()
@@ -634,7 +634,7 @@ class crack2:
 							self.fl.append({"id":i.split("<=>")[0],"pw":generate(i.split("<=>")[1])})
 						except:continue
 				except Exception as e:
-					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Valid")
+					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 					continue
 				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Play Airplane Mode If No Result\n")
 				ThreadPool(30).map(self.main,self.fl)
@@ -700,11 +700,11 @@ class crack3:
 				try:
 					while True:
 						try:
-							self.apk=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama File :\x1b[1;92m ")
+							self.apk=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name File :\x1b[1;92m ")
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
-							exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
+							exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 							continue
 					self.fl=[]
 					for i in self.fs:
@@ -712,7 +712,7 @@ class crack3:
 							self.fl.append({"id":i.split("<=>")[0]})
 						except:continue
 				except Exception as e:
-					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Valid")
+					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 					continue
 				print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Contoh Password :\x1b[1;92m Sayang,Bangsat,123456")
 				self.pwlist()
@@ -721,11 +721,11 @@ class crack3:
 				try:
 					while True:
 						try:
-							self.apk=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama File :\x1b[1;92m ")
+							self.apk=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name File :\x1b[1;92m ")
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
-							exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
+							exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 							continue
 					self.fl=[]
 					for i in self.fs:
@@ -733,7 +733,7 @@ class crack3:
 							self.fl.append({"id":i.split("<=>")[0],"pw":generate(i.split("<=>")[1])})
 						except:continue
 				except Exception as e:
-					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Valid")
+					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 					continue
 				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
 				ThreadPool(30).map(self.main,self.fl)
