@@ -8,11 +8,11 @@ logo = ("""\x1b[1;92m    __  ____ ______ __☆☆☆☆☆☆☆☆☆☆☆___ 
 \x1b[1;96m /  /\/  /  __   /  / /  / (__/  /  __   / 
 \x1b[1;96m/__/ /__/(______/__/ /__/(______/(______/ V2.0.1
 \x1b[1;95m=================================================
-\x1b[1;92m╔══◍➤\x1b[1;97mAutor     : \x1b[1;92mAngga
-\x1b[1;92m╠══◍➤\x1b[1;97mGithub    : \x1b[1;92mhttps://github.com/Bajingan-Z
-\x1b[1;92m╠══◍➤\x1b[1;97mFacebook  : \x1b[1;92mfb.me/PEMUDA.KALEUM
+\x1b[1;92m╔══◍➤\x1b[1;97mAutor      : \x1b[1;92mAngga
+\x1b[1;92m╠══◍➤\x1b[1;97mGithub     : \x1b[1;92mhttps://github.com/Bajingan-Z
+\x1b[1;92m╠══◍➤\x1b[1;97mFacebook   : \x1b[1;92mfb.me/PEMUDA.KALEUM
 \x1b[1;92m║
-\x1b[1;92m╚══◍➤\x1b[1;97mCode By   : \x1b[1;92mRaka & Angga
+\x1b[1;92m╚══◍➤\x1b[1;97mCode By    : \x1b[1;92mRaka & Angga
 \x1b[1;95m=================================================""")
 useragent=random.choice(["Mozilla/5.0 (Linux; Android 10; SM-G960F Build/R16NW; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.50 Mobile Safari/537.36 Instagram 211.0.0.33.117 Android (26/10; 640dpi; 1440x2768; samsung; SM-G960F; starqltechn; qcom; it_IT; 327976425)",
 "Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 210.0.0.16.67 (iPhone8,1; iOS 13_7; ru_RU; ru-RU; scale=2.00; 750x1334; 325544617) NW/3",
