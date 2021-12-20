@@ -51,7 +51,7 @@ def menu_instagram():
 	print("\x1b[1;92m╠══◍➤[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama   : "+nama)
 	print("\x1b[1;92m╠══◍➤[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Region : "+region)
 	print("\x1b[1;92m║")
-	print("\n\x1b[1;96m╠══◍➤[\x1b[1;97m1\x1b[1;96m]\x1b[1;97m Crack Dari Username Huruf+Angka")
+	print("\x1b[1;96m╠══◍➤[\x1b[1;97m1\x1b[1;96m]\x1b[1;97m Crack Dari Username Huruf+Angka")
 	print("\x1b[1;96m╠══◍➤[\x1b[1;97m2\x1b[1;96m]\x1b[1;97m Crack Dari Username Huruf_Angka")
 	print("\x1b[1;96m╠══◍➤[\x1b[1;97m3\x1b[1;96m]\x1b[1;97m Crack Dari Email Nama+Angka")
 	print("\x1b[1;96m╠══◍➤[\x1b[1;97m4\x1b[1;96m]\x1b[1;97m Crack Dari Email Huruf")
@@ -60,7 +60,7 @@ def menu_instagram():
 	print("\x1b[1;96m╠══◍➤[\x1b[1;97m7\x1b[1;96m]\x1b[1;97m Crack Dari Query V2")
 	print("\x1b[1;96m╠══◍➤[\x1b[1;97m8\x1b[1;96m]\x1b[1;97m Lihat Hasil Crack")
 	print("\x1b[1;97m╠══◍➤[\x1b[1;93m0\x1b[1;97m]\x1b[1;93m Keluar")
-	menu=raw_input("\n\x1b[1;92m╚══◍➤[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Choose :\x1b[1;92m ")
+	menu=raw_input("\x1b[1;92m╚══◍➤[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Choose :\x1b[1;92m ")
 	if menu == "":
 		exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Wrong Input")
 	elif menu == "1":
