@@ -2,15 +2,16 @@
 import requests, random, os, time,sys,json
 from bs4 import BeautifulSoup as parser
 from urllib2 import urlopen
-logo = ("""\x1b[1;92m ___ ___ ___ __  __ ___ _   _ __  __
-\x1b[1;92m| _ \ _ \ __|  \/  |_ _| | | |  \/  |
-\x1b[1;96m|  _/   / _|| |\/| || || |_| | |\/| |
-\x1b[1;96m|_| |_|_\___|_|  |_|___|\___/|_|  |_|
-\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m——————————————————————————————
-\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m au : Bangsat-XD
-\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m Tw : Bangsat_XD
-\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m gh : github.com/Bangsat-XD
-\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m——————————————————————————————""")
+logo = ("""\x1b[1;92m    __  ___ ______  __☆☆☆☆☆☆☆☆☆☆___ ______ ® 
+\x1b[1;92m   /  \/   /__    )/  /__  ____/   /__    ) 
+\x1b[1;92m  /       /___)   /  __  )  ___   /___)   / 
+\x1b[1;96m /  /\/  /  __   /  / /  / (__/  /  __   / 
+\x1b[1;96m/__/ /__/(______/__/ /__/(______/(______/ V2.0.1
+\x1b[1;95m=================================================
+\x1b[1;96m╔══◍➤Desigen By : Raka Andrian Tara
+\x1b[1;96m╠══◍➤Github     : https://github.com/Garangan-Z
+\x1b[1;96m╚══◍➤Instagram  : raka_andrian27
+\x1b[1;95m=================================================""")
 useragent=random.choice(["Mozilla/5.0 (Linux; Android 10; SM-G960F Build/R16NW; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.50 Mobile Safari/537.36 Instagram 211.0.0.33.117 Android (26/10; 640dpi; 1440x2768; samsung; SM-G960F; starqltechn; qcom; it_IT; 327976425)",
 "Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 210.0.0.16.67 (iPhone8,1; iOS 13_7; ru_RU; ru-RU; scale=2.00; 750x1334; 325544617) NW/3",
 "Mozilla/5.0 (Linux; Android 11; RMX2193 Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/94.0.4606.85 Mobile Safari/537.36 Instagram 211.0.0.33.117 Android (30/11; 320dpi; 720x1448; realme; RMX2193; RMX2193; mt6768; fr_FR; 327976424)",
@@ -46,25 +47,25 @@ def menu_instagram():
 		login()
 	os.system("clear")
 	print(logo)
-	print("\x1b[1;92m[\x1b[1;97m*\x1b[1;92m]\x1b[1;97m Ip : "+ip)
-	print("\x1b[1;92m[\x1b[1;97m*\x1b[1;92m]\x1b[1;97m Nama : "+nama)
-	print("\x1b[1;92m[\x1b[1;97m*\x1b[1;92m]\x1b[1;97m Region : "+region)
-
-	print("\n\x1b[1;96m[\x1b[1;97m1\x1b[1;96m]\x1b[1;97m Crack Dari Username Huruf+Angka")
-	print("\x1b[1;96m[\x1b[1;97m2\x1b[1;96m]\x1b[1;97m Crack Dari Username Huruf_Angka")
-	print("\x1b[1;96m[\x1b[1;97m3\x1b[1;96m]\x1b[1;97m Crack Dari Email Nama+Angka")
-	print("\x1b[1;96m[\x1b[1;97m4\x1b[1;96m]\x1b[1;97m Crack Dari Email Huruf")
-	print("\x1b[1;96m[\x1b[1;97m5\x1b[1;96m]\x1b[1;97m Crack Dari Email Angka")
-	print("\x1b[1;96m[\x1b[1;97m6\x1b[1;96m]\x1b[1;97m Crack Dari Query V1")
-	print("\x1b[1;96m[\x1b[1;97m7\x1b[1;96m]\x1b[1;97m Crack Dari Query V2")
-	print("\x1b[1;96m[\x1b[1;97m8\x1b[1;96m]\x1b[1;97m Lihat Hasil Crack")
-	print("\x1b[1;97m[\x1b[1;93m0\x1b[1;97m]\x1b[1;93m Keluar")
-	menu=raw_input("\n\x1b[1;92m[\x1b[1;97m#\x1b[1;92m]\x1b[1;97m Choose :\x1b[1;92m ")
+	print("\x1b[1;92m╔══◍➤[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Ip     : "+ip)
+	print("\x1b[1;92m╠══◍➤[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama   : "+nama)
+	print("\x1b[1;92m╠══◍➤[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Region : "+region)
+	print("\x1b[1;92m║")
+	print("\n\x1b[1;96m╠══◍➤[\x1b[1;97m1\x1b[1;96m]\x1b[1;97m Crack Dari Username Huruf+Angka")
+	print("\x1b[1;96m╠══◍➤[\x1b[1;97m2\x1b[1;96m]\x1b[1;97m Crack Dari Username Huruf_Angka")
+	print("\x1b[1;96m╠══◍➤[\x1b[1;97m3\x1b[1;96m]\x1b[1;97m Crack Dari Email Nama+Angka")
+	print("\x1b[1;96m╠══◍➤[\x1b[1;97m4\x1b[1;96m]\x1b[1;97m Crack Dari Email Huruf")
+	print("\x1b[1;96m╠══◍➤[\x1b[1;97m5\x1b[1;96m]\x1b[1;97m Crack Dari Email Angka")
+	print("\x1b[1;96m╠══◍➤[\x1b[1;97m6\x1b[1;96m]\x1b[1;97m Crack Dari Query V1")
+	print("\x1b[1;96m╠══◍➤[\x1b[1;97m7\x1b[1;96m]\x1b[1;97m Crack Dari Query V2")
+	print("\x1b[1;96m╠══◍➤[\x1b[1;97m8\x1b[1;96m]\x1b[1;97m Lihat Hasil Crack")
+	print("\x1b[1;97m╠══◍➤[\x1b[1;93m0\x1b[1;97m]\x1b[1;93m Keluar")
+	menu=raw_input("\n\x1b[1;92m╚══◍➤[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Choose :\x1b[1;92m ")
 	if menu == "":
 		exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Wrong Input")
 	elif menu == "1":
-		nama=raw_input("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Nama :\x1b[1;96m ").lower()
-                pw=raw_input("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Password :\x1b[1;96m ")
+		nama=raw_input("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Nama :\x1b[1;96m ").lower()
+                pw=raw_input("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Password :\x1b[1;96m ")
                 print("\x1b[1;97m ")
                 for i in range(1000):
                         number=random.randint(1, 999)
