@@ -496,7 +496,7 @@ class crack:
 		self.cp=[]
 		self.ko=0
 		while True:
-			f=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Gunakan Password Manual (y/t) :\x1b[1;92m ")
+			f=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Want to use a manual password (y/t) :\x1b[1;92m ")
 			if f=="":continue
 			elif f=="y":
 				try:
@@ -595,7 +595,7 @@ class crack2:
 		self.cp=[]
 		self.ko=0
 		while True:
-			f=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Gunakan Password Manual (y/t) :\x1b[1;92m ")
+			f=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Want to use a manual password (y/t) :\x1b[1;92m ")
 			if f=="":continue
 			elif f=="y":
 				try:
@@ -694,7 +694,7 @@ class crack3:
 		self.cp=[]
 		self.ko=0
 		while True:
-			f=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Gunakan Password Manual (y/t) :\x1b[1;92m ")
+			f=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Want to use a manual password (y/t) :\x1b[1;92m ")
 			if f=="":continue
 			elif f=="y":
 				try:
