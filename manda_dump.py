@@ -312,8 +312,8 @@ def daftar_menu():
 	elif pilih == "6":
 		metode()
 	elif pilih == "7":
-		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Lihat Hasil\x1b[1;92m Ok")
-		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Lihat Hasil\x1b[1;93m Cp")
+		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Lihat Hasil\x1b[1;92m OK")
+		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Lihat Hasil\x1b[1;93m CP")
 		print("\x1b[1;92m╚══◍➤®[\x1b[1;97m0\x1b[1;92m]\x1b[1;97m Kembali")
 	        print("\x1b[1;92m║")
 		lihat = raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Choose :\x1b[1;92m ")
@@ -323,14 +323,14 @@ def daftar_menu():
 			try:
 				live=open('Live.txt','r').read()
 			except IOError:
-				exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Hasil Ok Tidak Ada")
+				exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Hasil OK Tidak Ada")
 			print("\x1b[1;92m"+live)
 			exit()
 		elif lihat == "2":
 			try:
                                 chek=open('Check.txt','r').read()
                         except IOError:
-                                exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Hasil Cp Tidak Ada")
+                                exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Hasil CP Tidak Ada")
                         print("\x1b[1;93m"+chek)
 			exit()
 		elif lihat == "0":
@@ -388,6 +388,8 @@ def generate(text):
 				if "Indonesia" in country:
 					results.append("bismillah")
                                         results.append("sayang")
+                                        results.append("anjing")
+                                        results.append("indonesia")
 				if "Pakistan" in country:
 					results.append("pakistan")
 					results.append("786786")
@@ -583,7 +585,7 @@ class crack:
 				else:continue
 
 			self.ko+=1
-			print "\r\x1b[1;96m◍➤[CRACK] %s/%s [Ok:%s] - [Cp:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r\x1b[1;96m◍➤[CRACK] %s/%s [OK:%s] - [CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 class crack2:
@@ -682,7 +684,7 @@ class crack2:
 				else:continue
 
 			self.ko+=1
-			print "\r\x1b[1;96m◍➤[CRACK] %s/%s [Ok:%s] - [Cp:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r\x1b[1;96m◍➤[CRACK] %s/%s [OK:%s] - [CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 class crack3:
@@ -781,7 +783,7 @@ class crack3:
 				else:continue
 
 			self.ko+=1
-			print "\r\x1b[1;96m◍➤[CRACK] %s/%s [Ok:%s] - [Cp:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r\x1b[1;96m◍➤[CRACK] %s/%s [OK:%s] - [CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 
