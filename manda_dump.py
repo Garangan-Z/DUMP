@@ -271,24 +271,25 @@ def menu():
 		exit("\x1b[1;91m[\x1b[1;93m•\x1b[1;91m]\x1b[1;93m Koneksi Error")
 	os.system("clear")
 	print(logo)
-	print("\x1b[1;92m[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name : "+nama)
-	print("\x1b[1;92m[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Ip   : "+ip)
-	print("\x1b[1;92m[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Org  : "+org)
-
-	print("\n\x1b[1;97m[\x1b[1;96m1\x1b[1;97m]\x1b[1;96m Crack Instagram (without login)")
-	print("\x1b[1;96m[\x1b[1;97m2\x1b[1;96m]\x1b[1;97m Dump ID Publik (dump fast)")
-	print("\x1b[1;96m[\x1b[1;97m3\x1b[1;96m]\x1b[1;97m Dump ID Like Post (dump fast)")
-	print("\x1b[1;96m[\x1b[1;97m4\x1b[1;96m]\x1b[1;97m Dump ID Follower (dump fast)")
-	print("\x1b[1;96m[\x1b[1;97m5\x1b[1;96m]\x1b[1;97m Dump ID Teman (dump fast)")
-	print("\x1b[1;97m[\x1b[1;92m6\x1b[1;97m]\x1b[1;92m Start Crack (crack fast)")
-	print("\x1b[1;96m[\x1b[1;97m7\x1b[1;96m]\x1b[1;97m Lihat Hasil Crack")
-	print("\x1b[1;96m[\x1b[1;97m8\x1b[1;96m]\x1b[1;97m Report Bug")
-	print("\x1b[1;97m[\x1b[1;91m0\x1b[1;97m]\x1b[1;91m Remove Token")
+	print("\x1b[1;92m╠══◍➤[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name : "+nama)
+	print("\x1b[1;92m╠══◍➤[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Ip   : "+ip)
+	print("\x1b[1;92m╠══◍➤[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Org  : "+org)
+	print("\x1b[1;92m║")
+	print("\x1b[1;97m╠══◍➤[\x1b[1;96m1\x1b[1;97m]\x1b[1;96m Crack Instagram (without login)")
+	print("\x1b[1;96m╠══◍➤[\x1b[1;97m2\x1b[1;96m]\x1b[1;97m Dump ID Publik (dump fast)")
+	print("\x1b[1;96m╠══◍➤[\x1b[1;97m3\x1b[1;96m]\x1b[1;97m Dump ID Like Post (dump fast)")
+	print("\x1b[1;96m╠══◍➤[\x1b[1;97m4\x1b[1;96m]\x1b[1;97m Dump ID Follower (dump fast)")
+	print("\x1b[1;96m╠══◍➤[\x1b[1;97m5\x1b[1;96m]\x1b[1;97m Dump ID Teman (dump fast)")
+	print("\x1b[1;97m╠══◍➤[\x1b[1;92m6\x1b[1;97m]\x1b[1;92m Start Crack (crack fast)")
+	print("\x1b[1;96m╠══◍➤[\x1b[1;97m7\x1b[1;96m]\x1b[1;97m Lihat Hasil Crack")
+	print("\x1b[1;96m╠══◍➤[\x1b[1;97m8\x1b[1;96m]\x1b[1;97m Report Bug")
+	print("\x1b[1;97m╠══◍➤[\x1b[1;91m0\x1b[1;97m]\x1b[1;91m Remove Token")
+	print("\x1b[1;92m║")
 	daftar_menu()
 def daftar_menu():
-	pilih = raw_input("\n\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m Choose :\x1b[1;96m ")
+	pilih = raw_input("\x1b[1;96m╠══◍➤[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Choose :\x1b[1;96m ")
 	if pilih == "":
-		exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Wrong Input")
+		exit("\x1b[1;93m╠══◍➤[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Wrong Input")
 	elif pilih == "1":
 		menu_instagram()
 	elif pilih == "2":
@@ -302,12 +303,13 @@ def daftar_menu():
 	elif pilih == "6":
 		metode()
 	elif pilih == "7":
-		print("\x1b[1;96m[\x1b[1;97m1\x1b[1;96m]\x1b[1;97m Lihat Hasil\x1b[1;92m Ok")
-		print("\x1b[1;96m[\x1b[1;97m2\x1b[1;96m]\x1b[1;97m Lihat Hasil\x1b[1;93m Cp")
-		print("\x1b[1;96m[\x1b[1;97m0\x1b[1;96m]\x1b[1;97m Kembali")
-		lihat = raw_input("\n\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m Choose :\x1b[1;96m ")
+		print("\x1b[1;96m╠══◍➤[\x1b[1;97m1\x1b[1;96m]\x1b[1;97m Lihat Hasil\x1b[1;92m Ok")
+		print("\x1b[1;96m╠══◍➤[\x1b[1;97m2\x1b[1;96m]\x1b[1;97m Lihat Hasil\x1b[1;93m Cp")
+		print("\x1b[1;96m╠══◍➤[\x1b[1;97m0\x1b[1;96m]\x1b[1;97m Kembali")
+	        print("\x1b[1;92m║")
+		lihat = raw_input("\x1b[1;96m╠══◍➤[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Choose :\x1b[1;96m ")
 		if lihat == "":
-			exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Wrong Input")
+			exit("\x1b[1;93m╠══◍➤[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Wrong Input")
 		elif lihat == "1":
 			try:
 				live=open('Live.txt','r').read()
