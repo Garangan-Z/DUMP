@@ -2,14 +2,17 @@
 import requests, random, os, time,sys,json
 from bs4 import BeautifulSoup as parser
 from urllib2 import urlopen
-logo = ("""\x1b[1;92m    __  ___ ______  __☆☆☆☆☆☆☆☆☆☆___ ______ ® 
-\x1b[1;92m   /  \/   /__    )/  /__  ____/   /__    ) 
-\x1b[1;92m  /       /___)   /  __  )  ___   /___)   / 
+logo = ("""\x1b[1;92m    __  ____ ______ ___☆☆☆☆☆☆___ ______ ® 
+\x1b[1;92m   /  \/   /__    )/  /____ ___/   /__    ) 
+\x1b[1;92m  /       /___)   /  __   / ___   /___)   / 
 \x1b[1;96m /  /\/  /  __   /  / /  / (__/  /  __   / 
 \x1b[1;96m/__/ /__/(______/__/ /__/(______/(______/ V2.0.1
 \x1b[1;95m=================================================
-\x1b[1;96m╔══◍➤Created By : Raka Andrian Tara 
-\x1b[1;96m╠══◍➤Github     : https://github.com/Garangan-Z
+\x1b[1;96m╔══◍➤Autor      : \x1b[1;92mAngga
+\x1b[1;92m╠══◍➤Github     : \x1b[1;92mhttps://github.com/Bajingan-Z
+\x1b[1;92m╠══◍➤Facebook   : \x1b[1;92mfb.me/PEMUDA.KALEUM
+\x1b[1;96m║
+\x1b[1;96m╠══◍➤Code By    : Raka Andrian Tara 
 \x1b[1;96m╚══◍➤Instagram  : raka_andrian27
 \x1b[1;95m=================================================""")
 useragent=random.choice(["Mozilla/5.0 (Linux; Android 10; SM-G960F Build/R16NW; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.50 Mobile Safari/537.36 Instagram 211.0.0.33.117 Android (26/10; 640dpi; 1440x2768; samsung; SM-G960F; starqltechn; qcom; it_IT; 327976425)",
