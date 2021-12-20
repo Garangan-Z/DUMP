@@ -2,7 +2,7 @@
 import requests, random, os, time,sys,json
 from bs4 import BeautifulSoup as parser
 from urllib2 import urlopen
-logo = ("""\x1b[1;92m    __  ____ ______ ___☆☆☆☆☆☆☆☆☆☆___ ______ ® 
+logo = ("""\x1b[1;92m    __  ____ ______ __☆☆☆☆☆☆☆☆☆☆☆___ ______ ® 
 \x1b[1;92m   /  \/   /__    )   )___ _____/  /__    ) 
 \x1b[1;92m  /       /___)   /  __  )  ___   /___)   / 
 \x1b[1;96m /  /\/  /  __   /  / /  / (__/  /  __   / 
