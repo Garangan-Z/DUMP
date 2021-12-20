@@ -5,7 +5,6 @@
 # OMPEN SOURSE CODE YA BROO CUMA BOOT FOLLOW + BOT COMEN YANG ANE ENC
 
 import os
-try:
 import requests
 except ImportError:
 jeeck_love_almira ( " \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Module requests belum terinstal")
