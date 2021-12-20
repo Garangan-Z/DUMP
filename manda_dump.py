@@ -122,7 +122,7 @@ def publik():
                         op = json.loads(req.text)
                         print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name :\x1b[1;92m "+op["name"])
                 except KeyError:
-                        print('\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Profil Tidak Ditemukan')
+                        print('\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Profile Not Found')
 	                print("\x1b[1;92m║")
                         raw_input("\x1b[1;92m╚══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
                         menu()
@@ -199,7 +199,7 @@ def follower():
                         op = json.loads(req.text)
                         print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name : \x1b[1;92m"+op["name"])
                 except KeyError:
-                        print('\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Profil Tidak Ditemukan')
+                        print('\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Profile Not Found')
 	                print("\x1b[1;92m║")
                         raw_input("\x1b[1;92m╚══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
                         menu()
@@ -348,7 +348,7 @@ def daftar_menu():
 			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Deleting Token Successful see you 😊")
 			os.remove("___bangsat___")
 		except Exception as e:
-			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
+			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 	else:
 		exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
 def metode():
@@ -506,7 +506,7 @@ class crack:
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
-							exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
+							exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 							continue
 					self.fl=[]
 					for i in self.fs:
@@ -514,7 +514,7 @@ class crack:
 							self.fl.append({"id":i.split("<=>")[0]})
 						except:continue
 				except Exception as e:
-					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Valid")
+					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 					continue
 				print("\x1b[1;92m╠══◍➤[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Contoh Password :\x1b[1;92m Sayang,Bangsat,123456")
 				self.pwlist()
@@ -527,7 +527,7 @@ class crack:
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
-							exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
+							exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 							continue
 					self.fl=[]
 					for i in self.fs:
@@ -535,7 +535,7 @@ class crack:
 							self.fl.append({"id":i.split("<=>")[0],"pw":generate(i.split("<=>")[1])})
 						except:continue
 				except Exception as e:
-					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Valid")
+					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 					continue
 				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
 				ThreadPool(30).map(self.main,self.fl)
