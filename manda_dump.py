@@ -288,8 +288,8 @@ def menu():
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m5\x1b[1;92m]\x1b[1;97m Dump ID Teman (dump fast)")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m6\x1b[1;92m]\x1b[1;92m Start Crack (crack fast)")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m7\x1b[1;92m]\x1b[1;97m Lihat Hasil Crack")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;91m8\x1b[1;92m]\x1b[1;91m Report Bug")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;91m0\x1b[1;92m]\x1b[1;91m Remove Token")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m8\x1b[1;92m]\x1b[1;91m Report Bug")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m0\x1b[1;92m]\x1b[1;91m Remove Token")
 	print("\x1b[1;92m║")
 	daftar_menu()
 def daftar_menu():
