@@ -22,17 +22,17 @@ Dan Jika Ingin Di Ganti Izin Dulu :v
 
 
 #####################################
-logo = ("""\x1b[1;92m    __  ____ _____  ___☆☆☆☆☆☆___ ______ ® 
+logo = ("""\x1b[1;92m    __  ____ _____  ___☆☆☆☆☆☆☆☆☆___ ______ ® 
 \x1b[1;92m   /  \/   /__    )/  /____ ____/  /__    ) 
-\x1b[1;92m  /       /___)   /  __   /  ___  /___)   / 
+\x1b[1;92m  /       /___)   /  __   ) ___   /___)   / 
 \x1b[1;96m /  /\/  /  __   /  / /  / (__/  /  __   / 
 \x1b[1;96m/__/ /__/(______/__/ /__/(______/(______/ V2.0.1
 \x1b[1;95m=================================================
-\x1b[1;92m╔══◍➤Autor      : \x1b[1;92mAngga
-\x1b[1;92m╠══◍➤Github     : https://github.com/Bajingan-Z
-\x1b[1;92m╠══◍➤Facebook   : fb.me/PEMUDA.KALEUM
+\x1b[1;92m╔══◍➤\x1b[1;97mAutor      : \x1b[1;92mAngga
+\x1b[1;92m╠══◍➤\x1b[1;97mGithub     : \x1b[1;92mhttps://github.com/Bajingan-Z
+\x1b[1;92m╠══◍➤\x1b[1;97mFacebook   : \x1b[1;92mfb.me/PEMUDA.KALEUM
 \x1b[1;92m║
-\x1b[1;92m╚══◍➤Code By    : Raka & Angga
+\x1b[1;92m╚══◍➤\x1b[1;97mCode By    : \x1b[1;92mRaka & Angga
 \x1b[1;95m=================================================""")
 url=('http://ipinfo.io/json')
 response=urlopen(url)
