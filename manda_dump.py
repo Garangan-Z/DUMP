@@ -296,7 +296,7 @@ def menu():
 	print("\x1b[1;92m║")
 	daftar_menu()
 def daftar_menu():
-	pilih = raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Choose :\x1b[1;96m ")
+	pilih = raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Choose :\x1b[1;92m ")
 	if pilih == "":
 		exit("\x1b[1;92m╚══◍➤®[\x1b[1;91m•\x1b[1;92m]\x1b[1;97m Wrong Input")
 	elif pilih == "1":
@@ -493,7 +493,7 @@ class crack:
 		self.cp=[]
 		self.ko=0
 		while True:
-			f=raw_input("\n\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Gunakan Password Manual (y/t) :\x1b[1;92m ")
+			f=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Gunakan Password Manual (y/t) :\x1b[1;92m ")
 			if f=="":continue
 			elif f=="y":
 				try:
@@ -537,7 +537,7 @@ class crack:
 				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
-				exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
+				exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
 				break
 	def pwlist(self):
 		self.pw=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Password :\x1b[1;92m ").split(",")
@@ -549,7 +549,7 @@ class crack:
 			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
-			exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
+			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
 	def main(self,fl):
 		try:
 			for i in fl.get("pw"):
@@ -583,7 +583,7 @@ class crack:
 				else:continue
 
 			self.ko+=1
-			print "\r\x1b[1;97m[•] Crack %s/%s [Ok:%s] - [Cp:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r\x1b[1;96m◍➤[CRACK] %s/%s [Ok:%s] - [Cp:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 class crack2:
@@ -636,7 +636,7 @@ class crack2:
 				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
-				exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
+				exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
 				break
 	def pwlist(self):
 		self.pw=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Password :\x1b[1;92m ").split(",")
@@ -645,10 +645,10 @@ class crack2:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
-			exit("\n\x1b[1;97m[\x1b[1;92mSelesai\x1b[1;97m]")
+			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
 	def main(self,fl):
 		try:
 			for i in fl.get("pw"):
@@ -682,7 +682,7 @@ class crack2:
 				else:continue
 
 			self.ko+=1
-			print "\r\x1b[1;97m[•] Crack %s/%s [Ok:%s] - [Cp:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r\x1b[1;96m◍➤[CRACK] %s/%s [Ok:%s] - [Cp:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 class crack3:
@@ -691,17 +691,17 @@ class crack3:
 		self.cp=[]
 		self.ko=0
 		while True:
-			f=raw_input("\n\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Gunakan Password Manual (y/t) :\x1b[1;92m ")
+			f=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Gunakan Password Manual (y/t) :\x1b[1;92m ")
 			if f=="":continue
 			elif f=="y":
 				try:
 					while True:
 						try:
-							self.apk=raw_input("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Nama File :\x1b[1;92m ")
+							self.apk=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama File :\x1b[1;92m ")
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
-							exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
+							exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
 							continue
 					self.fl=[]
 					for i in self.fs:
@@ -709,7 +709,7 @@ class crack3:
 							self.fl.append({"id":i.split("<=>")[0]})
 						except:continue
 				except Exception as e:
-					exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Valid")
+					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Valid")
 					continue
 				print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Contoh Password :\x1b[1;92m Sayang,Bangsat,123456")
 				self.pwlist()
@@ -718,11 +718,11 @@ class crack3:
 				try:
 					while True:
 						try:
-							self.apk=raw_input("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Nama File :\x1b[1;92m ")
+							self.apk=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama File :\x1b[1;92m ")
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
-							exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
+							exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
 							continue
 					self.fl=[]
 					for i in self.fs:
@@ -730,12 +730,12 @@ class crack3:
 							self.fl.append({"id":i.split("<=>")[0],"pw":generate(i.split("<=>")[1])})
 						except:continue
 				except Exception as e:
-					exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Valid")
+					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Valid")
 					continue
-				print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
-				exit("\n\x1b[1;92m╠══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
+				exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
 				break
 	def pwlist(self):
 		self.pw=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Password :\x1b[1;92m ").split(",")
@@ -744,10 +744,10 @@ class crack3:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
-			exit("\n\x1b[1;92m╠══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
+			exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
 	def main(self,fl):
 		try:
 			for i in fl.get("pw"):
@@ -781,7 +781,7 @@ class crack3:
 				else:continue
 
 			self.ko+=1
-			print "\r\x1b[1;97m[•] Crack %s/%s [Ok:%s] - [Cp:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r\x1b[1;96m◍➤[CRACK] %s/%s [Ok:%s] - [Cp:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 
