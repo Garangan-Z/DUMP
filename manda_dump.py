@@ -284,7 +284,7 @@ def menu():
 	print("\x1b[1;92m╔══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name : "+nama)
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Ip   : "+ip)
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Org  : "+org)
-        print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Bgbg : %s"%(tgl))
+        print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Bgbg : "+tgl)
 	print("\x1b[1;92m║")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;92m Crack Instagram (without login)")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Dump ID Publik (dump fast)")
