@@ -49,7 +49,7 @@ def login():
 	print(logo)
 	print("\x1b[1;92m╔══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Login Using Facebook Token")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m How to Get Facebook Token")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m0\x1b[1;92m]\x1b[1;97m Keluar")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m0\x1b[1;92m]\x1b[1;97m Go Out")
 	print("\x1b[1;92m║")
         login = raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Choose :\x1b[1;92m ")
 	if login == "":
