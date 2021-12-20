@@ -346,6 +346,7 @@ def metode():
 	print("\x1b[1;92m╠══◍➤[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Metode mbasic")
 	print("\x1b[1;92m╠══◍➤[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Metode free facebook")
 	print("\x1b[1;92m╠══◍➤[\x1b[1;97m3\x1b[1;92m]\x1b[1;97m Metode mobile facebook")
+	print("\x1b[1;92m║")
 	metode=raw_input("\x1b[1;96m╠══◍➤[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Choose :\x1b[1;92m ")
 	if metode == '':
 		exit("\x1b[1;93m╠══◍➤[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Wrong Input")
@@ -483,7 +484,7 @@ class crack:
 		self.cp=[]
 		self.ko=0
 		while True:
-			f=raw_input("\n\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Gunakan Password Manual (y/t) :\x1b[1;92m ")
+			f=raw_input("\n\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Gunakan Password Manual (y/t) :\x1b[1;92m ")
 			if f=="":continue
 			elif f=="y":
 				try:
@@ -524,19 +525,19 @@ class crack:
 				except Exception as e:
 					exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m File Tidak Valid")
 					continue
-				print("\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+				print("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\n\x1b[1;97m[\x1b[1;92mSelesai\x1b[1;97m]")
 				break
 	def pwlist(self):
-		self.pw=raw_input("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Password :\x1b[1;92m ").split(",")
+		self.pw=raw_input("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Password :\x1b[1;92m ").split(",")
 		if len(self.pw) ==0:
 			self.pwlist()
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print("\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+			print("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\n\x1b[1;97m[\x1b[1;92mSelesai\x1b[1;97m]")
@@ -582,7 +583,7 @@ class crack2:
 		self.cp=[]
 		self.ko=0
 		while True:
-			f=raw_input("\n\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Gunakan Password Manual (y/t) :\x1b[1;92m ")
+			f=raw_input("\n\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Gunakan Password Manual (y/t) :\x1b[1;92m ")
 			if f=="":continue
 			elif f=="y":
 				try:
@@ -602,7 +603,7 @@ class crack2:
 				except Exception as e:
 					exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m File Tidak Valid")
 					continue
-				print("\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m Contoh Password :\x1b[1;92m Sayang,Bangsat,123456")
+				print("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Contoh Password :\x1b[1;92m Sayang,Bangsat,123456")
 				self.pwlist()
 				break
 			elif f=="t":
@@ -623,19 +624,19 @@ class crack2:
 				except Exception as e:
 					exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m File Tidak Valid")
 					continue
-				print("\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+				print("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
 				ThreadPool(35).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\n\x1b[1;97m[\x1b[1;92mSelesai\x1b[1;97m]")
 				break
 	def pwlist(self):
-		self.pw=raw_input("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Password :\x1b[1;92m ").split(",")
+		self.pw=raw_input("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Password :\x1b[1;92m ").split(",")
 		if len(self.pw) ==0:
 			self.pwlist()
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print("\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+			print("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\n\x1b[1;97m[\x1b[1;92mSelesai\x1b[1;97m]")
@@ -681,7 +682,7 @@ class crack3:
 		self.cp=[]
 		self.ko=0
 		while True:
-			f=raw_input("\n\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Gunakan Password Manual (y/t) :\x1b[1;92m ")
+			f=raw_input("\n\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Gunakan Password Manual (y/t) :\x1b[1;92m ")
 			if f=="":continue
 			elif f=="y":
 				try:
@@ -701,7 +702,7 @@ class crack3:
 				except Exception as e:
 					exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m File Tidak Valid")
 					continue
-				print("\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m Contoh Password :\x1b[1;92m Sayang,Bangsat,123456")
+				print("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Contoh Password :\x1b[1;92m Sayang,Bangsat,123456")
 				self.pwlist()
 				break
 			elif f=="t":
@@ -722,19 +723,19 @@ class crack3:
 				except Exception as e:
 					exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m File Tidak Valid")
 					continue
-				print("\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+				print("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\n\x1b[1;97m[\x1b[1;92mSelesai\x1b[1;97m]")
 				break
 	def pwlist(self):
-		self.pw=raw_input("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Password :\x1b[1;92m ").split(",")
+		self.pw=raw_input("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Password :\x1b[1;92m ").split(",")
 		if len(self.pw) ==0:
 			self.pwlist()
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print("\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+			print("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\n\x1b[1;97m[\x1b[1;92mSelesai\x1b[1;97m]")
