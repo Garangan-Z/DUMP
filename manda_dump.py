@@ -47,8 +47,8 @@ mobile_h={'Host': 'm.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insec
 def login():
 	os.system('clear')
 	print(logo)
-	print("\x1b[1;92m╔══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Login Pakai Token")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Cara Mendapat Token")
+	print("\x1b[1;92m╔══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Login Using Facebook Token")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m How to Get Facebook Token")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m0\x1b[1;92m]\x1b[1;97m Keluar")
 	print("\x1b[1;92m║")
         login = raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Choose :\x1b[1;92m ")
