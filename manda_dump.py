@@ -345,7 +345,7 @@ def daftar_menu():
 		exit()
 	elif pilih == "0":
 		try:
-			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Menghapus Token Berhasil see you 😊")
+			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Deleting Token Successful see you 😊")
 			os.remove("___bangsat___")
 		except Exception as e:
 			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Ada")
@@ -353,9 +353,9 @@ def daftar_menu():
 		exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
 def metode():
 	print("\x1b[1;92m║")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Metode mbasic")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Metode free facebook")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m3\x1b[1;92m]\x1b[1;97m Metode mobile facebook")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Metode Mbasic")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Metode Free Facebook")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m3\x1b[1;92m]\x1b[1;97m Metode Mobile Facebook")
 	print("\x1b[1;92m║")
 	metode=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Choose :\x1b[1;92m ")
 	if metode == '':
@@ -537,7 +537,7 @@ class crack:
 				except Exception as e:
 					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Valid")
 					continue
-				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -549,7 +549,7 @@ class crack:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -622,7 +622,7 @@ class crack2:
 				try:
 					while True:
 						try:
-							self.apk=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m*\x1b[1;92m]\x1b[1;97m Nama File :\x1b[1;92m ")
+							self.apk=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Nama File :\x1b[1;92m ")
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
@@ -636,7 +636,7 @@ class crack2:
 				except Exception as e:
 					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Valid")
 					continue
-				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Play Airplane Mode If No Result\n")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -648,7 +648,7 @@ class crack2:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -735,7 +735,7 @@ class crack3:
 				except Exception as e:
 					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m File Tidak Valid")
 					continue
-				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -747,7 +747,7 @@ class crack3:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Mode Pesawat Jika Tidak Ada Hasil\n")
+			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
