@@ -48,7 +48,6 @@ def login():
 	print("\x1b[1;92m╔══◍➤[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Login Pakai Token")
 	print("\x1b[1;92m╠══◍➤[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Cara Mendapat Token")
 	print("\x1b[1;92m╚══◍➤[\x1b[1;93m0\x1b[1;92m]\x1b[1;93m Keluar")
-	print("\x1b[1;92m║")
         login = raw_input("\n\x1b[1;92m╔══◍➤[\x1b[1;97m•\x1b[1;92m] Choose :\x1b[1;96m ")
 	if login == "":
 		exit("\x1b[1;93m╠══◍➤[\x1b[1;91m•\x1b[1;93m] \x1b[1;91mWrong Input")
