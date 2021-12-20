@@ -32,7 +32,7 @@ logo = ("""\x1b[1;92m    __  ____ ______ __☆☆☆☆☆☆☆☆☆☆☆_
 \x1b[1;92m╠══◍➤\x1b[1;97mGithub    : \x1b[1;92mhttps://github.com/Bajingan-Z
 \x1b[1;92m╠══◍➤\x1b[1;97mFacebook  : \x1b[1;92mfb.me/PEMUDA.KALEUM
 \x1b[1;92m║
-\x1b[1;92m╚══◍➤\x1b[1;97mCode By   : \x1b[1;92mRaka & Angga
+\x1b[1;92m╚══◍➤\x1b[1;97mCoded By  : \x1b[1;92mRaka & Angga
 \x1b[1;95m=================================================""")
 url=('http://ipinfo.io/json')
 response=urlopen(url)
