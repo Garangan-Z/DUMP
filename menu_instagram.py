@@ -59,7 +59,8 @@ def menu_instagram():
 	print("\x1b[1;96m╠══◍➤[\x1b[1;97m6\x1b[1;96m]\x1b[1;97m Crack Dari Query V1")
 	print("\x1b[1;96m╠══◍➤[\x1b[1;97m7\x1b[1;96m]\x1b[1;97m Crack Dari Query V2")
 	print("\x1b[1;96m╠══◍➤[\x1b[1;97m8\x1b[1;96m]\x1b[1;97m Lihat Hasil Crack")
-	print("\x1b[1;97m╠══◍➤[\x1b[1;93m0\x1b[1;97m]\x1b[1;93m Keluar")
+	print("\x1b[1;96m╠══◍➤[\x1b[1;97m0\x1b[1;97m]\x1b[1;91m Keluar")
+	print("\x1b[1;92m║")
 	menu=raw_input("\x1b[1;92m╚══◍➤[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Choose :\x1b[1;92m ")
 	if menu == "":
 		exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Wrong Input")
