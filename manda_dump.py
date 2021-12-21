@@ -8,20 +8,7 @@ from urllib2 import urlopen
 from menu_instagram import menu_instagram
 reload(sys)
 sys.setdefaultencoding("utf-8")
-"""   Terimaksih Untuk Semuanya   """
-#####################################
 
-
-"""
-
-Pastikan Jangan Ubah Bot Follownya !
-Kalo Mau Tinggal Tambahin Faham?
-Dan Jika Ingin Di Ganti Izin Dulu :v
-
- 				  """
-
-
-#####################################
 logo = ("""\x1b[1;92m    __  ____ ______ __☆☆☆☆☆☆☆☆☆☆☆___ ______ ® 
 \x1b[1;92m   /  \/   /__    )   )___ _____/  /__    ) 
 \x1b[1;92m  /       /___)   /  __  )  ___   /___)   / 
