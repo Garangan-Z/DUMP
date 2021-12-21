@@ -272,14 +272,14 @@ def menu():
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Ip   : "+ip)
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Org  : "+org)
 	print("\x1b[1;92m║")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;92m Crack Instagram (without login)")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Dump ID Publik (dump fast)")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m3\x1b[1;92m]\x1b[1;97m Dump ID Like Post (dump fast)")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m4\x1b[1;92m]\x1b[1;97m Dump ID Follower (dump fast)")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m5\x1b[1;92m]\x1b[1;97m Dump ID Teman (dump fast)")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m6\x1b[1;92m]\x1b[1;92m Start Crack (crack fast)")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m7\x1b[1;92m]\x1b[1;97m Lihat Hasil Crack")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m8\x1b[1;92m]\x1b[1;91m Report Bug")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;96m Target Instagram Without Login")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Target Public Id")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m3\x1b[1;92m]\x1b[1;97m Target Id Likes Posts")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m4\x1b[1;92m]\x1b[1;97m Target Follower Id")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m5\x1b[1;92m]\x1b[1;97m Friend's Target Id")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m6\x1b[1;92m]\x1b[1;92m STAR CRACK")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m7\x1b[1;92m]\x1b[1;97m View Crack Results")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m8\x1b[1;92m]\x1b[1;91m Report A Bug")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m0\x1b[1;92m]\x1b[1;91m Remove Token")
 	print("\x1b[1;92m║")
 	daftar_menu()
@@ -525,6 +525,7 @@ class crack:
 					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 					continue
 				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
+	                        print("\x1b[1;92m_____________________________________________________________________________")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -537,6 +538,7 @@ class crack:
 			for i in self.fl:
 				i.update({"pw":self.pw})
 			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
+	                print("\x1b[1;92m_____________________________________________________________________________")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -565,7 +567,7 @@ class crack:
 					except (KeyError, IOError):
 		                         bt = "         "
 					except:pass
-					print("\r\x1b[1;93m[ANGGA_CP] "+(fl.get("id")+"|"+i+" "+bt+" "))
+					print("\r\x1b[1;96m[ANGGA_CP] "+(fl.get("id")+"|"+i+" "+bt+" "))
 					self.cp.append("%s|%s %s"%(fl.get("id"),i,bt))
 					open("Check.txt","a+").write(
 						"%s|%s %s\n"%(fl.get("id"),i,bt))
@@ -624,6 +626,7 @@ class crack2:
 					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 					continue
 				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Play Airplane Mode If No Result\n")
+	                        print("\x1b[1;92m_____________________________________________________________________________")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -636,6 +639,7 @@ class crack2:
 			for i in self.fl:
 				i.update({"pw":self.pw})
 			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
+	                print("\x1b[1;92m_____________________________________________________________________________")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -664,7 +668,7 @@ class crack2:
 					except (KeyError, IOError):
 		                         bt = "         "
 					except:pass
-					print("\r\x1b[1;93m[ANGGA_CP] "+(fl.get("id")+"|"+i+" "+bt+" "))
+					print("\r\x1b[1;96m[ANGGA_CP] "+(fl.get("id")+"|"+i+" "+bt+" "))
 					self.cp.append("%s|%s %s"%(fl.get("id"),i,bt))
 					open("Check.txt","a+").write(
 						"%s|%s %s\n"%(fl.get("id"),i,bt))
@@ -723,6 +727,7 @@ class crack3:
 					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 					continue
 				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
+	                        print("\x1b[1;92m_____________________________________________________________________________")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -735,6 +740,7 @@ class crack3:
 			for i in self.fl:
 				i.update({"pw":self.pw})
 			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
+	                print("\x1b[1;92m_____________________________________________________________________________")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -763,7 +769,7 @@ class crack3:
 					except (KeyError, IOError):
 		                         bt = "         "
 					except:pass
-					print("\r\x1b[1;93m[ANGGA_CP] "+(fl.get("id")+"|"+i+" "+bt+" "))
+					print("\r\x1b[1;96m[ANGGA_CP] "+(fl.get("id")+"|"+i+" "+bt+" "))
 					self.cp.append("%s|%s %s"%(fl.get("id"),i,bt))
 					open("Check.txt","a+").write(
 						"%s|%s %s\n"%(fl.get("id"),i,bt))
