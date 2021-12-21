@@ -120,7 +120,7 @@ def publik():
                 for a in z['friends']['data']:
                         id.append(a['id']+"<=>"+a['name'])
                         fle.write(a['id']+"<=>"+a['name']+'\n')
-                        print("\r\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Dump\x1b[1;92m %s\x1b[1;97m ID"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
+                        print("\r\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Target Id\x1b[1;92m %s\x1b[1;97m "%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
                 fle.close()
                 print("\r\x1b[1;92m                     ")
                 print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Selesai")
@@ -524,8 +524,8 @@ class crack:
 				except Exception as e:
 					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 					continue
-				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
-	                        print("\x1b[1;92m_____________________________________________________________________________")
+				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
+	                        print("\x1b[1;92m___________________________________________________________")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -537,8 +537,8 @@ class crack:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
-	                print("\x1b[1;92m_____________________________________________________________________________")
+			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
+	                print("\x1b[1;92m___________________________________________________________")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -625,8 +625,8 @@ class crack2:
 				except Exception as e:
 					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 					continue
-				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Play Airplane Mode If No Result\n")
-	                        print("\x1b[1;92m_____________________________________________________________________________")
+				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Mainkan Play Airplane Mode If No Result")
+	                        print("\x1b[1;92m___________________________________________________________")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -638,8 +638,8 @@ class crack2:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
-	                print("\x1b[1;92m_____________________________________________________________________________")
+			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
+	                print("\x1b[1;92m___________________________________________________________")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -726,8 +726,8 @@ class crack3:
 				except Exception as e:
 					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 					continue
-				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
-	                        print("\x1b[1;92m_____________________________________________________________________________")
+				print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
+	                        print("\x1b[1;92m___________________________________________________________")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -739,8 +739,8 @@ class crack3:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result\n")
-	                print("\x1b[1;92m_____________________________________________________________________________")
+			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
+	                print("\x1b[1;92m___________________________________________________________")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
