@@ -525,7 +525,9 @@ class crack:
 					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 					continue
 				print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
-	                        print("\x1b[1;92m╚════════════════════════════════════════════════\n")
+	                        print("\x1b[1;92m╠════════════════════════════════════════════════")
+	                        print("\x1b[1;92m║")
+	                        print("\x1b[1;92m╚══◍➤® Please wait ...\n")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
