@@ -326,7 +326,7 @@ def daftar_menu():
 		else:
 			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
 	elif pilih == "8":
-		print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Anda Akan Diarahkan Ke Whatsapp")
+		print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Anda Akan Diarahkan Ke Messenger")
 		time.sleep(2)
 		os.system("xdg-open https://m.me/PEMUDA.KALEUM?text=Hallo%20Bang%20Ganteng")
 		exit()
