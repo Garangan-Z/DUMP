@@ -159,7 +159,7 @@ def like_post():
                 for a in z['data']:
                         id.append(a['id']+"<=>"+a['name'])
                         fle.write(a['id']+"<=>"+a['name']+'\n')
-                        print("\r\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Dump\x1b[1;92m %s \x1b[1;97mID \r"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
+                        print("\r\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Target Id\x1b[1;92m %s \x1b[1;97m \r"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
                 fle.close()
 		print("\r\x1b[1;97m                   ")
 		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Selesai")
@@ -197,7 +197,7 @@ def follower():
                 for a in z['friends']['data']:
                         id.append(a['id']+"<=>"+a['name'])
                         fle.write(a['id']+"<=>"+a['name']+'\n')
-                        print("\r\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Dump\x1b[1;92m %s \x1b[1;97mID"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
+                        print("\r\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Target Id\x1b[1;92m %s \x1b[1;97m "%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
                 fle.close()
                 print("\r\x1b[1;97m                     ")
                 print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Selesai")
@@ -236,7 +236,7 @@ def teman():
                 for a in z['data']:
                         id.append(a['id']+"<=>"+a['name'])
                         fle.write(a['id']+"<=>"+a['name']+'\n')
-                        print("\r\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Dump\x1b[1;92m %s\x1b[1;97m ID\r"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
+                        print("\r\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Target Id\x1b[1;92m %s\x1b[1;97m \r"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
                 fle.close()
 		print("\r\x1b[1;97m                   ")
                 print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Selesai")
