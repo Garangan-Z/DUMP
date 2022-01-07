@@ -82,7 +82,7 @@ def tod():
         time.sleep(1)
 
 # LO KONTOL
-logo = ''' \033[0;96m    __  ___ ______  __☆☆☆☆☆☆☆☆☆☆___ ______ ® 
+logo = ''' \033[0;96m   __  ___ ______  __☆☆☆☆☆☆☆☆☆☆___ ______ ® 
 \033[0;96m   /  \/   /__    )/  /__  ____/   /__    ) 
 \033[0;96m  /       /___)   /  __  )  ___   /___)   / 
 \033[0;96m /  /\/  /  __   /  / /  / (__/  /  __   / 
@@ -107,7 +107,7 @@ def hasil(ok,cp):
 def yayanxd():
     os.system('clear')
     print (' %s◍➤%s This Tool Uses Facebook Token Login.\n %s◍➤%s Do You Already Know How To Get Facebook Token?\n %s◍➤%s Type %sOpen%s To Get Facebook Token.'%(O,N,O,N,O,N,H,N))
-    kontol = raw_input('\n %s[%s?%s] ☆TOKEN☆™︻®╤───────═◍➤ :%s '%(N,M,N,H))
+    kontol = raw_input('\n %s[%s?%s] TOKEN :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
         print '\n%s *%s Usahakan Akun Tumbal Login Di Kiwi Browser Terlebih Dahulu'%(B,N);time.sleep(2)
         print '%s *%s Jangan Lupa! Url Ubah Ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
